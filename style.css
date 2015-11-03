@@ -1,14 +1,19 @@
-*, *:before, *:after			{-moz-box-sizing: border-box; -webkit-box-sizing: border-box;box-sizing: border-box;}
-body					          	{background-color:#C9FFFF}
-h1 						          	{font-size: 2em;}
-h2 						          	{font-size: 1.5em;text-align: center;}
-h1, h2					        	{font-weight: bold; margin: 5px 0; font-family: 'Bad Script', cursive;}
-p 						          	{font-size: 1em;margin: 5px 0;}
-ul 						          	{padding-left: 10px;margin: 10px 0; list-styletype:disc;}
-li						            {margin-left: 10px; padding-left: 10px;}
-aside ol  						    {display:block; list-style-type:lower-greek;}
-header, article, aside		{border: 1px solid ; padding: 10px 1em; margin: 0 5% 10px;background:white;}
-header nav li 					  {display:inline;}
-header 						        {margin-top: 10px;}
-#colorfoot					      {border: 1px solid; padding: 10px 1em; margin: 0 5% 10px;background:gray;}
-span						          {font-size: 1em;font-weight: 900;}
+*, *:before, *:after			{-moz-box-sizing: border-box; -webkit-box-sizing: border-box;box-sizing: border-box;border-radius: 10px 10px 10px 10px;}
+body						{background-color:#C9FFFF}
+h1 							{font-size: 2em;}
+h2 							{font-size: 1.5em;text-align: center;}
+h1, h2						{font-weight: bold; margin: 5px 0; font-family: 'Bad Script', cursive;}
+p 							{font-size: 1em;margin: 5px 0;}
+ul 							{padding-left: 10px;margin: 10px 0; list-styletype:disc;}
+li						        {margin-left: 10px; padding-left: 10px;}
+aside ol  						{display:block; list-style-type:lower-greek;}
+header, article, aside			{border: 1px solid ; padding: 10px 1em; margin: 0 5% 10px;background:white;}
+header nav li 					{display:inline;}
+header nav li a:hover			{background-color: #66FFFF;} 		
+header nav li a					{text-decoration: none; border:1px solid ##D7FFFF;border-radius: 10px 10px 10px 10px;}
+header 						{margin-top: 10px;}
+#colorfoot					{border: 1px solid; padding: 10px 1em; margin: 0 5% 10px;background:gray;}
+span						{font-size: 1em;font-weight: 900;}
+table						{border-collapse: collapse;}
+table,td,th					{border: 1px solid black;}
+#bottone					{margin:8px 50px}
