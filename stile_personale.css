@@ -9,34 +9,35 @@
    box-sizing: border-box;
 }
 body{
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
-background: rgb(30,87,153); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* IE10+ */
-background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
-
-
-	
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abdf4+0,ffffff+22,ffffff+74,89c3eb+100,d5ebfb+100 */
+background: rgb(122,189,244); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(122,189,244,1) 0%, rgba(255,255,255,1) 22%, rgba(255,255,255,1) 74%, rgba(137,195,235,1) 100%, rgba(213,235,251,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(122,189,244,1)), color-stop(22%,rgba(255,255,255,1)), color-stop(74%,rgba(255,255,255,1)), color-stop(100%,rgba(137,195,235,1)), color-stop(100%,rgba(213,235,251,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(122,189,244,1) 0%,rgba(255,255,255,1) 22%,rgba(255,255,255,1) 74%,rgba(137,195,235,1) 100%,rgba(213,235,251,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgba(122,189,244,1) 0%,rgba(255,255,255,1) 22%,rgba(255,255,255,1) 74%,rgba(137,195,235,1) 100%,rgba(213,235,251,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgba(122,189,244,1) 0%,rgba(255,255,255,1) 22%,rgba(255,255,255,1) 74%,rgba(137,195,235,1) 100%,rgba(213,235,251,1) 100%); /* IE10+ */
+background: linear-gradient(to right, rgba(122,189,244,1) 0%,rgba(255,255,255,1) 22%,rgba(255,255,255,1) 74%,rgba(137,195,235,1) 100%,rgba(213,235,251,1) 100%); /* W3C */
+font-family: sans-serif,"Times New Roman";
 }
 
 h1 {
    font-size: 2em;
+   color:#33ADFF;
 }
 h2 {
    font-size: 1.5em;
    text-align:center;
+   
 }
-h1, h2 {
+h1, h2,h3 {
    font-weight: bold;
    margin: 5px 0;
+   font-family: 'Courgette', cursive;
 }
 p {
    font-size: 1em;
    margin: 5px 0;
+  
 }
 ul {
    padding-left: 10px;
@@ -44,6 +45,10 @@ ul {
    list-styletype:disc;
    
 }
+img {
+   max-width: 100%;
+}
+
 li {
 
    border-radius: 10px 10px 10px 10px;
@@ -57,21 +62,65 @@ header li {
 }
 header li a {
 	 text-decoration: none;
+	 font-size:100%;
+}
+header li img:hover{
+	
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+
+}
+header li a img {
+width: 20%;
+
 }
 
 header, article, aside, footer {
-   border: 1px solid #111;
+   border: 2px solid #0066FF;
    background:white;
 }
 
 header, article, aside, footer {
-   border: 1px solid #111;
+   border: 2px solid #0066FF;
    padding: 10px 1em;
    margin: 0 5% 10px;
 }
 
+footer{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+14,7abdf4+40,89c3eb+55,d5ebfb+75,ffffff+100 */
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(255,255,255,1) 14%, rgba(122,189,244,1) 40%, rgba(137,195,235,1) 55%, rgba(213,235,251,1) 75%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(14%,rgba(255,255,255,1)), color-stop(40%,rgba(122,189,244,1)), color-stop(55%,rgba(137,195,235,1)), color-stop(75%,rgba(213,235,251,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1) 14%,rgba(122,189,244,1) 40%,rgba(137,195,235,1) 55%,rgba(213,235,251,1) 75%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(255,255,255,1) 14%,rgba(122,189,244,1) 40%,rgba(137,195,235,1) 55%,rgba(213,235,251,1) 75%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(255,255,255,1) 14%,rgba(122,189,244,1) 40%,rgba(137,195,235,1) 55%,rgba(213,235,251,1) 75%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(255,255,255,1) 14%,rgba(122,189,244,1) 40%,rgba(137,195,235,1) 55%,rgba(213,235,251,1) 75%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+	border-radius: 1px 1px 25px 1px;
+
+}
+footer p {
+	text-align:center;
+}
+header {
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6d/London_Thames_Sunset_panorama_-_Feb_2008_banner.jpg);
+   background-repeat: no-repeat;
+   background-position: right center;
+   border-radius: 25px 1px 1px 1px;
+  
+}
+
+aside img {
+	float: center;
+	width: 100%;
+	
+}
+
 header {
    margin-top: 10px;
+}
+#upstairs a{
+	float:right;		
 }
 
 @media only screen and (min-width: 36em) and (max-width: 72em){
@@ -89,7 +138,27 @@ header {
 	  
    #notes {
       clear: both;
+	 
    }
+   aside img{
+	   width: 50%;
+	   float: none;
+	   
+   }
+      header li a img {
+	width: 8%;
+
+	}
+	#about{
+	border-radius: 1px 1px 10px 1px;
+	}
+	#links{
+	border-radius: 1px 1px 1px 10px;
+	}
+
+   
+  
+   
 }
 @media only screen and  (min-width: 72em) {
    #about {
@@ -118,5 +187,17 @@ header {
 	   
         clear: both;
    }
+   #about,#links,#notes{
+border-radius: 1px 1px 1px 10px;
+}
+#notes{
+border-radius: 1px 1px 10px 10px;
+}
+#about{border-radius:1px 1px 10px 1px;
+}
+   header li a img {
+width: 6%;
+
+}
 
 }
